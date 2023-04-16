@@ -1,43 +1,34 @@
-# Job-Finder
-Job Finder is a Python-based automation tool that helps job seekers to find job postings from three major job portals: Indeed, Monster, and Naukri.com. This tool uses Selenium automation and web scraping techniques to extract job details like job title, company name, job location, and job description from the job portals. The extracted data is then presented through a Streamlit-based frontend GUI.
+# JOB FINDER(HACKNITE PROJECT 2023)
+# Project Overview
+The project aimed to develop a web scraping and automation solution using Python for job searching from popular websites foundit.com, naukri.com and indeed.com. The objective was to create a system that could filter job listings based on the user's requirements and display the results in a structured format.
 
-## Requirements
-Python 3.x
+# Libraries Used
+The following libraries were utilized in the project:
+- Beautiful Soup: A Python library for web scraping and parsing HTML.
+- Selenium: A powerful tool for automating web interactions, such as clicking buttons, filling forms, and navigating between pages.
+- Natural Language Processing Toolkit (NLTK): A library for processing and analyzing text data, which was used for tasks such as resume parsing and job description analysis.
+- OpenAI: A library for natural language processing tasks, including text generation and sentiment analysis, which was used to enhance the job search experience.
+- Streamlit: A Python framework for building interactive web applications, which was used for developing the frontend user interface.
 
-Selenium WebDriver for Python
+# Features
+The project included the following features:
+- Web scraping of job listings from foundit.com, naukri.com and indeed.com.
+- Filtering of job listings based on user requirements.
+- Implementation of a chatbot feature using OpenAI to assist users in preparing for job interviews.
+- Resume upload feature to compare user resumes with job descriptions for better job matching.
+- Backend functionalities for job data extraction, processing, and filtering.
+- Frontend user interface development using Streamlit for job search and interaction with features.
 
-BeautifulSoup4
+# How the Project Was Built
+The project was implemented in several stages. Initially, the team shortlisted reliable websites for gathering job data based on user requirements. Next, automation techniques were employed using Selenium to interact with the websites, inputting data and extracting job listings through web scraping. The extracted data was then processed and filtered using Beautiful Soup and NLTK to refine the job search results. Although these features were individually completed, the integration between the frontend and backend was pending, resulting in an incomplete final product.
 
-ChromeDriver
+# Usage Instructions
+Although the final product was not fully completed, the backend functionalities are fully functional. Follow the instructions below to run the project:
+1. Install the required libraries (Beautiful Soup, Selenium, NLTK, OpenAI, Streamlit) using pip or any other package manager.
+2. Run the backend script to perform web scraping and data processing tasks, which includes extracting job listings, filtering them, and implementing the chatbot and resume upload features.
+3. Launch the frontend interface using Streamlit to interact with the job search features, including inputting user requirements, viewing job listings, and utilizing the chatbot and resume upload features.
 
-Streamlit
-
-## Installation
-
-### Clone the repository
-
-git clone https://github.com/RutulPatel007/Job-Finder.git
-  
-### Install the required libraries
-
-pip install -r requirements.txt
-
-Download the ChromeDriver executable from here and place it in the job-finder directory.
-  
-### Usage
-Open job_finder.py in any text editor of your choice.
-
-Edit the search_terms list variable to add your preferred job titles and locations.
-
-Copy code
-search_terms = [    {'title': 'Software Developer', 'location': 'New York'},    {'title': 'Data Scientist', 'location': 'San Francisco'},    {'title': 'Product Manager', 'location': 'London'}]
-  
-Run job_finder.py to start the automation process.
-
-Copy code
-
-streamlit run job_finder.py
-
-Wait for the tool to finish scraping job postings from the job portals.
-
-After the tool finishes scraping, the Streamlit-based frontend GUI will open in your default web browser. Use the GUI to browse the job postings that were extracted by the tool.
+# Team Members
+The project was developed by the following team members:
+- Aryaman Pathal (IMT2022513)
+- Rutul Patel (IMT2022021)
