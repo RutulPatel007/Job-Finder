@@ -16,7 +16,7 @@ Streamlit
 
 ### Clone the repository
 
-git clone https://github.com/<username>/job-finder.git
+git clone https://github.com/RutulPatel007/Job-Finder.git
   
 ### Install the required libraries
 
